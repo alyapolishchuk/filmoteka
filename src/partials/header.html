@@ -1,0 +1,63 @@
+<header class="page-header header" id="home">
+  <div class="header__container container">
+    <div class="page-header__nav">
+      <a class="logo logo-tablet" href="./index.html" lang="en">
+        <svg class="header-svg auth-nav__icon">
+          <use
+            href="./header-img/symbol-film-icon.svg#icon-film-icon"
+          ></use></svg
+        ><span class="logo-header">Filmoteka</span></a
+      >
+      <div class="menu-container" id="menu-container" data-menu="">
+        <div class="menu-container__mobile">
+						<!-- swich btn  -->
+          <button class="theme" type="button">
+            <svg
+              class="theme__icon-light is-hidden"
+              data-theme="light"
+              width="20px"
+              height="20px"
+            >
+              <use href="./images/symbol-defs.svg#icon-sun"></use>
+            </svg>
+            <svg
+              class="theme__icon-dark is-hidden"
+              data-theme="dark"
+              width="20px"
+              height="20px"
+            >
+              <use href="./images/symbol-defs.svg#icon-moon"></use>
+            </svg>
+          </button>
+          <ul class="site-nav list">
+            <li class="site-nav__item">
+              <a class="site-nav__link site-nav__link--current" href="">HOME</a>
+            </li>
+            <li class="site-nav__item site-nav__item--indent">
+              <a class="site-nav__link" href="./library.html">MY LIBRARY</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="form-box">
+      <form class="page-header__form">
+        <input
+          type="text"
+          name="text"
+          id="page-header__text"
+          class="page-header__form-input"
+          placeholder="Movie search"
+        />
+        <button type="submit" class="page-header__btn--active">
+          <svg class="icon-send" width="24" height="24">
+            <use href="./header-img/symbol-search.svg#icon-search-2-1"></use>
+          </svg>
+        </button>
+      </form>
+      <p class="search">
+        <!-- Search result not successful. Enter the correct movie name and -->
+      </p>
+    </div>
+  </div>
+</header>

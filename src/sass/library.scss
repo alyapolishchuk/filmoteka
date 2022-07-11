@@ -1,0 +1,24 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+// Base
+@import './base/reset';
+@import './base/common';
+// Utils
+@import './utils/mixin';
+@import './utils/variables';
+@import './utils/container';
+@import './utils/hidden';
+
+// Components
+@import './components/pagination';
+@import './components/modal';
+
+// Layout
+@import './layout-library/header-library';
+@import './layout-library/main-library';
+@import './layout/button-up';
+@import './layout-library/footer-library';

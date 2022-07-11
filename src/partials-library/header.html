@@ -1,0 +1,70 @@
+<header class="page-header header-library" id="home">
+  <div class="header-library__container container">
+    <div class="page-header__nav">
+      <a class="logo logo-tablet" href="./index.html" lang="en">
+        <svg class="auth-nav__icon" width="24" height="24">
+          <use
+            href="./header-img/symbol-film-icon.svg#icon-film-icon"
+          ></use></svg
+        ><span class="logo-header">Filmoteka</span></a
+      >
+
+      <div class="menu-container" id="menu-container" data-menu>
+        <div class="menu-container__mobile">
+					<!-- swich btn  -->
+          <button class="theme" type="button">
+            <svg
+              class="theme__icon-light is-hidden"
+              data-theme="light"
+              width="20px"
+              height="20px"
+            >
+              <use href="./images/symbol-defs.svg#icon-sun"></use>
+            </svg>
+            <svg
+              class="theme__icon-dark is-hidden"
+              data-theme="dark"
+              width="20px"
+              height="20px"
+            >
+              <use href="./images/symbol-defs.svg#icon-moon"></use>
+            </svg>
+          </button>
+          <ul class="site-nav list">
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./index.html">HOME</a>
+            </li>
+            <li class="site-nav__item site-nav__item--indent">
+              <a class="site-nav__link site-nav__link--current" href=""
+                >MY LIBRARY</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <ul class="filters-row list">
+        <li class="filters-row__btn">
+          <button
+            type="button"
+            class="js-watched filters-row__btn--active"
+            data-info="watched"
+          >
+            WATCHED
+          </button>
+        </li>
+
+        <li class="filters-row__btn btn__content">
+          <button
+            type="button"
+            class="js-queue filters-row__btn--active"
+            data-info="queue"
+          >
+            QUEUE
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>

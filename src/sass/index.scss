@@ -1,0 +1,20 @@
+// Стили для файла с примером HTML-фрагмента
+// Base
+@import './base/reset';
+@import './base/common';
+
+// Utils
+@import './utils/mixin';
+@import './utils/variables';
+@import './utils/container';
+@import './utils/hidden';
+
+// Components
+@import './components/modal';
+@import './components/pagination';
+
+// Layout
+@import './layout/header';
+@import './layout/main';
+@import './layout/button-up';
+@import './layout/footer';
