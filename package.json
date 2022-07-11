@@ -2,20 +2,20 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://VsevolodZharkov.github.io/team-03-pr-film",
+  "homepage": "https://alyapolishchuk.github.io/filmoteka",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /team-03-pr-film/"
+    "build": "parcel build src/*.html --public-url /filmoteka/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VsevolodZharkov/team-03-pr-film.git"
+    "url": "git+https://github.com/alyapolishchuk/filmoteka.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VsevolodZharkov/team-03-pr-film/issues"
+    "url": "https://github.com/alyapolishchuk/filmoteka/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
